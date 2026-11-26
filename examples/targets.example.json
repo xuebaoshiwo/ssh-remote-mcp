@@ -1,0 +1,17 @@
+{
+  "sshConfig": "~/.ssh/config",
+  "targets": {
+    "dev-box": {
+      "installRoot": "/home/dev/ssh-mcp",
+      "projectDir": "/home/dev/projects/example",
+      "claudeBinary": "/home/dev/ssh-mcp/bin/claude",
+      "codexBinary": "/home/dev/ssh-mcp/bin/codex"
+    },
+    "build-box": {
+      "installRoot": "/home/builder/ssh-mcp",
+      "projectDir": "/home/builder/projects/example",
+      "claudeBinary": "/home/builder/ssh-mcp/bin/claude",
+      "codexBinary": "/home/builder/ssh-mcp/bin/codex"
+    }
+  }
+}

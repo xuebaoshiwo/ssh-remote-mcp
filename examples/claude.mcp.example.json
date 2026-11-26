@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "claude_ssh": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/path/to/ssh-remote-mcp/claude-ssh-mcp/gateway.mjs",
+        "/path/to/ssh-remote-mcp/targets.json"
+      ]
+    }
+  }
+}

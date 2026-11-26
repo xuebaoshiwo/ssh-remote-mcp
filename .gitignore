@@ -1,0 +1,8 @@
+targets.json
+.mcp.json
+.codex/
+.env
+.env.*
+.ssh/
+*.pem
+*.key

@@ -1,0 +1,9 @@
+[mcp_servers.codex_ssh]
+command = "node"
+args = [
+  "/path/to/ssh-remote-mcp/claude-ssh-mcp/gateway.mjs",
+  "/path/to/ssh-remote-mcp/targets.json",
+  "codex",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 620
